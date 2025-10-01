@@ -4,18 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home - Grivolt</title>
-  <link rel="stylesheet" href="../CSS/style.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar">
-    <div class="logo">
+    <div class="navbar-brand">
       <img src="GVlogo.png" alt="Grivolt Logo" class="logo-img">
       <span class="brand">Grivolt</span>
     </div>
     <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="home.html">Explore</a></li>
+      <li><a href="home.html" class="active">Home</a></li>
       <li><a href="booking.html">Booking</a></li>
       <li><a href="dashboard.html">Dashboard</a></li>
       <li><a href="maintenance.html">Maintenance</a></li>
@@ -23,30 +22,35 @@
     </ul>
   </nav>
 
-  <!-- Explore Section -->
-  <header class="page-header">
-    <h2>Welcome to <span class="highlight">Grivolt</span></h2>
-    <p>Explore charging options, battery swapping stations, and EV benefits.</p>
-  </header>
+  <!-- Hero Section -->
+  <section class="hero text-center">
+    <h1>Power Your Ride with <span>Grivolt</span></h1>
+    <p>Fast, reliable, and sustainable EV charging stations across India.</p>
+  </section>
 
+  <!-- Explore Section -->
   <section class="explore">
-    <div class="card">
-      <img src="images/station.jpg" alt="Stations">
-      <h3>EV Charging Stations</h3>
-      <p>Find over 500+ verified stations across India.</p>
-    </div>
-    <div class="card">
-      <img src="images/swap.jpg" alt="Battery Swap">
-      <h3>Battery Swapping</h3>
-      <p>Quick swaps, no waiting. Save time and travel farther.</p>
-    </div>
-    <div class="card">
-      <img src="images/benefits.jpg" alt="Benefits">
-      <h3>Benefits of EVs</h3>
-      <p>Save costs, reduce emissions, and drive the future of mobility.</p>
+    <h2 class="text-center">Explore Our Services</h2>
+    <div class="services-cards">
+      <div class="service-card">
+        <img src="reliablestation.jpeg" alt="Stations">
+        <h3>EV Charging Stations</h3>
+        <p>Find over 500+ verified stations across India.</p>
+      </div>
+      <div class="service-card">
+        <img src="batteryswapping.jpg" alt="Battery Swap">
+        <h3>Battery Swapping</h3>
+        <p>Quick swaps, no waiting. Save time and travel farther.</p>
+      </div>
+      <div class="service-card">
+        <img src="onlinebooking.png" alt="Benefits">
+        <h3>Benefits of EVs</h3>
+        <p>Save costs, reduce emissions, and drive the future of mobility.</p>
+      </div>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2025 Grivolt | Green Energy. Smart Travel.</p>
   </footer>
